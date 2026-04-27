@@ -1,0 +1,22 @@
+{
+  "embedding_dim": 1280,
+  "esm_model": "esm2_t33_650M_UR50D",
+  "esm_layer": 33,
+  "hidden_dim": 256,
+  "dropout": 0.3,
+  "batch_size": 64,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "n_epochs": 150,
+  "early_stopping_patience": 50,
+  "experiment_1": {
+    "train_size": 5381,
+    "pos_weight": 1.942044833242209,
+    "lr_baseline_val_auc": 0.9541106910670137
+  },
+  "experiment_2": {
+    "train_size": 4766,
+    "pos_weight": 1.9880877742946708,
+    "lr_baseline_val_auc": 0.9519654139469175
+  }
+}
